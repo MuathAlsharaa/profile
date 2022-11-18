@@ -1,0 +1,950 @@
+@import "https://necolas.github.io/normalize.css/";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   
+}
+
+html{
+    font-size: 16px;
+    color: white;
+    font-family: 'Josefin SanS', sans-serif;
+ 
+}
+
+
+
+
+
+
+
+
+.home{
+    background-color: rgb(33, 30, 26);
+   
+}
+
+
+span{
+    color:rgb(230, 20, 48);
+}
+
+
+h1{
+    color: white;
+    font-size:2.69rem;
+     margin: 1.7rem 4.5rem ;
+     padding: 15px;
+    margin-bottom: 4.3rem 0; 
+    cursor: pointer;
+
+
+}
+h2{
+    font-size: 2.0rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-top: 2.2rem;
+    /* margin-right:44%; */
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 6.2rem;
+     margin-left: 100px;
+    cursor: pointer;
+
+}
+
+
+nav{
+    padding-top: 2.3rem;
+    padding-left: 8%; 
+    padding-right: 8%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     cursor: pointer;
+  
+    
+   
+
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5rem 1.5rem; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize; 
+    transition: 0.4s;
+    color: white;
+
+    
+}
+
+nav ul li a:hover{
+    opacity: 0.8;
+    font-size: 20px;
+    color: red;
+    
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.containr-text2{
+    position: relative;
+    bottom: 95px;
+}
+
+.container-icons{
+   padding-left: 8%;
+   
+}
+
+.container-icons img{
+    width: 40px;
+    transition: 0.4s;
+}
+
+.container-icons img:hover{
+    transform: scale(1.1);
+    
+}
+
+.container-images{
+    width: 100%;
+    height: 80%;
+}
+
+
+.container-images img{
+    position: absolute;
+    bottom: 0%;
+    height: 70%;
+    left: 70%;
+   
+    transition: bottom 1s, left 1s;
+
+}
+
+.home  .container-images:hover .mypic{
+    bottom: 40px;
+}
+
+
+.home .container-images:hover  .pic2{
+    left: 60%;
+}
+/* نهايه الصفحه الاولى */
+/* ...... */
+
+
+
+
+.about{
+    background-color: #22282a;
+    display: flex;
+    padding: 8%; 
+    align-items: center;  
+}
+
+.about img{
+    width: 21%;
+    position: relative;
+     right: 55%;
+     position: absolute;
+     top: 96%;
+     left: 0%;
+     cursor: pointer;
+ 
+ 
+    
+  
+   
+}
+.about h1{
+    position: relative;
+    left: 30%;
+    bottom: 50px;
+    
+}
+
+pre{
+    position: relative;
+    right: 40px;
+    top: 10px;
+    font-family: 'Josefin SanS', sans-serif;
+
+}
+
+
+/*  skills page (section) */
+.skills{
+    background-color: #1e2121;
+    display: flex;
+    
+}
+
+.skills h1{
+    position: relative;
+    right: 20px;
+    display: flex;
+}
+
+.skills-image{
+    width: 20%;
+    display: inline-block;
+    cursor: pointer;
+    
+   
+}
+
+.skills-image img{
+    position: relative;
+    left: 60px;
+    width: 29%;
+}
+
+.skills-image img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+/* media phone */
+
+@media (min-width:200px) and (max-width:590px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+       
+}
+    
+html{
+    font-size: 10px;
+        color: white;
+        font-family: 'Josefin SanS', sans-serif;
+     
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+.home{
+    background-color: rgb(33, 30, 26);
+       
+}
+    
+    
+span{
+        color:rgb(230, 20, 48);
+}
+    
+    
+h1{
+        color: white;
+        font-size:2.29rem;
+         margin: 1.1rem 3.5rem ;
+         padding: 12px;
+        margin-bottom: 2.0rem 0; 
+        cursor: pointer;
+    
+    
+    }
+h2{
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        padding-top: 2.1rem;
+        /* margin-right:44%; */
+    }
+    
+h3{
+        font-size: 1.2rem;
+        margin-bottom: 9.2rem;
+         margin-left: 50px;
+        cursor: pointer;
+    
+    }
+    
+    
+nav{
+    padding-top: 2.3rem;
+    padding-left: 7%; 
+    padding-right: 5%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+      
+        
+       
+    
+    }
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0.5rem 1.5rem; 
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        text-transform: capitalize; 
+        transition: 0.4s;
+        color: white;
+    
+        
+    }
+    
+    nav ul li a:hover{
+        opacity: 0.8;
+        font-size: 12px;
+        color: red;
+        
+    }
+    
+.home{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .containr-text2{
+        position: relative;
+        bottom: 85px;
+    }
+    
+    .container-icons{
+       padding-left: 8%;
+       
+    }
+    
+    .container-icons img{
+        width: 35px;
+        transition: 0.4s;
+    }
+    
+    .container-icons img:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    .container-images{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .container-images img{
+        position: absolute;
+        
+        height: 50%;
+        left: 65%;
+        top: 53%;
+    
+        
+        
+    transition: bottom 1s, left 1s;
+    
+    }
+    
+    .home  .container-images:hover .mypic{
+        position: relative;
+        top: 15px;
+        
+    }
+    
+    
+    .home .container-images:hover  .pic2{
+        left: 60%;
+    }
+    /* نهايه الصفحه الاولى */
+    /* ...... */
+    
+    
+    
+    
+    .about{
+        background-color: #22282a;
+        display: flex;
+        padding: 8%; 
+        align-items: center;  
+    }
+    
+    .about img{
+        width: 20%;
+        position: relative;
+         right: 55%;
+         position: absolute;
+         top: 104%;
+         left: 0%;
+         cursor: pointer;
+     
+     
+        
+      
+       
+    }
+    .about h1{
+        position: relative;
+       left: 30%;
+        bottom: 40px;
+        font-size: 20px;
+        
+    }
+    
+    pre{
+        position: relative;
+        right: 40px;
+        top: 0px;
+        font-family: 'Josefin SanS', sans-serif;
+    
+    }
+    
+    
+    /*  skills page (section) */
+    .skills{
+        background-color: #1e2121;
+        display: flex;
+        
+    }
+    
+    .skills h1{
+        position: relative;
+        right: 20px;
+        display: flex;
+    }
+    
+    .skills-image{
+        width: 20%;
+        display: inline-block;
+        cursor: pointer;
+        
+       
+    }
+    
+    .skills-image img{
+        position: relative;
+        left: 25px;
+        width: 30%;
+        bottom: 10px;
+    }
+    
+    .skills-image img:hover{
+        transform: scale(1.2);
+        transition: 0.4s;
+    }
+ }
+ 
+
+
+
+
+
+/* media 2 */
+
+ @media (min-width:591px) and (max-width:700px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+          
+           
+    }
+        
+    html{
+        font-size: 12px;
+            color: white;
+            font-family: 'Josefin SanS', sans-serif;
+         
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+    .home{
+        background-color: rgb(49, 45, 39);
+           
+    }
+        
+        
+    span{
+  
+        color:rgb(230, 20, 48);
+    }
+        
+        
+    h1{
+            color: rgb(252, 252, 252);
+            font-size:2.3rem;
+             margin: 1.1rem 3.5rem ;
+             padding: 12px;
+            margin-bottom: 2.0rem 0; 
+            cursor: pointer;
+        
+        
+        }
+    h2{
+            font-size: 2.0rem;
+            letter-spacing: 1.6px;
+            cursor: pointer;
+            padding-top: 2.1rem;
+            /* margin-right:44%; */
+        }
+        
+    h3{
+            font-size: 1.5rem;
+            margin-bottom: 7rem;
+            margin-left: 50px;
+            cursor: pointer;
+        
+        }
+        
+        
+    nav{
+        padding-top: 2.3rem;
+        padding-left: 2%; 
+        padding-right: 5%; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+          
+            
+           
+        
+        }
+        nav ul li {
+            display: inline-block;
+            list-style-type: none;
+            margin: 0.5rem 1.5rem; 
+            font-size: 12px;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            text-transform: capitalize; 
+            transition: 0.4s;
+            color: white;
+        
+            
+        }
+        
+        nav ul li a:hover{
+            opacity: 0.8;
+            font-size: 16px;
+            color: red;
+            
+        }
+        
+    .home{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        .containr-text2{
+            position: relative;
+            bottom: 85px;
+        }
+        
+        .container-icons{
+           padding-left: 8%;
+           
+        }
+        
+        .container-icons img{
+            width: 45px;
+            transition: 0.4s;
+        }
+        
+        .container-icons img:hover{
+            transform: scale(1.3);
+            
+        }
+        
+        .container-images{
+            width:100%;
+            height: 100%;
+        }
+        
+        
+        .container-images img{
+            position: absolute;
+            
+        height: 51%;
+        left: 69%;
+        top: 53%;
+        
+            
+            
+        transition: bottom 1s, left 1s;
+        
+}
+        
+        .home  .container-images .mypic:hover{
+            position: relative;
+            top: 1px;
+
+          
+            
+
+        }
+        
+        
+        .home .container-images .pic2:hover{
+            left: 60%;
+        }
+        /* نهايه الصفحه الاولى */
+        /* ...... */
+        
+        
+        
+        
+        .about{
+            background-color: #22282a;
+            display: flex;
+            padding: 8%; 
+            align-items: center;  
+        }
+        
+        .about img{
+            width: 20%;
+            position: relative;
+             right: 55%;
+             position: absolute;
+             top: 104%;
+             left: 0%;
+             cursor: pointer;
+         
+         
+            
+          
+           
+        }
+        .about h1{
+            position: relative;
+           left: 30%;
+            bottom: 40px;
+            font-size: 24px;
+            
+        }
+        
+        pre{
+            position: relative;
+            right: 40px;
+            top:10px;
+            font-size: 15px;
+            font-family: 'Josefin SanS', sans-serif;
+        
+        }
+        
+        
+        /*  skills page (section) */
+        .skills{
+            background-color: #1e2121;
+            display: flex;
+            
+        }
+        
+        .skills h1{
+            position: relative;
+            right: 20px;
+            display: flex;
+        }
+        
+        .skills-image{
+            width: 24%;
+            display: inline-block;
+            cursor: pointer;
+            
+           
+        }
+        
+        .skills-image img{
+            position: relative;
+            left: 25px;
+            width: 31%;
+            bottom: 10px;
+        }
+        
+        .skills-image img:hover{
+            transform: scale(1.2);
+            transition: 0.4s;
+        }
+     }
+
+
+
+/* media tbalet and ipad  */
+
+@media (min-width:701px) and (max-width:900px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+              
+               
+        }
+            
+        html{
+            font-size: 12px;
+                color: white;
+                font-family: 'Josefin SanS', sans-serif;
+             
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+        .home{
+            background-color: rgb(51, 40, 40);
+               
+        }
+            
+            
+        span{
+      
+            color:rgb(230, 20, 48);
+        }
+            
+            
+        h1{
+                color: rgb(252, 252, 252);
+                font-size:2.3rem;
+                 margin: 1.1rem 3.5rem ;
+                 padding: 12px;
+                margin-bottom: 2.0rem 0; 
+                cursor: pointer;
+            
+            
+            }
+        h2{
+                font-size: 2.0rem;
+                letter-spacing: 1.6px;
+                cursor: pointer;
+                padding-top: 2.1rem;
+                /* margin-right:44%; */
+            }
+            
+        h3{
+                font-size: 1.5rem;
+                margin-bottom: 7rem;
+                margin-left: 50px;
+                cursor: pointer;
+            
+            }
+            
+            
+        nav{
+            padding-top: 2.3rem;
+            padding-left: 2%; 
+            padding-right: 5%; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+              
+                
+               
+            
+            }
+            nav ul li {
+                display: inline-block;
+                list-style-type: none;
+                margin: 0.5rem 1.5rem; 
+                font-size: 12px;
+            }
+            
+            nav ul li a{
+                text-decoration: none;
+                text-transform: capitalize; 
+                transition: 0.4s;
+                color: white;
+            
+                
+            }
+            
+            nav ul li a:hover{
+                opacity: 0.8;
+                font-size: 16px;
+                color: red;
+                
+            }
+            
+        .home{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            
+            .containr-text2{
+                position: relative;
+                bottom: 85px;
+            }
+            
+            .container-icons{
+               padding-left: 8%;
+               
+            }
+            
+            .container-icons img{
+                width: 45px;
+                transition: 0.4s;
+            }
+            
+            .container-icons img:hover{
+                transform: scale(1.3);
+                
+            }
+            
+            .container-images{
+                width:100%;
+                height: 100%;
+            }
+            
+            
+            .container-images img{
+                position: absolute;
+                
+            height: 51%;
+            left: 72%;
+            top: 53%;
+            
+                
+                
+            transition: bottom 1s, left 1s;
+            
+    }
+            
+.home  .container-images .mypic:hover{
+    position: absolute; 
+    bottom: 1px;
+    
+              
+
+    
+}
+            
+            
+ .home .container-images .pic2:hover{
+        left: 60%;
+}
+            /* نهايه الصفحه الاولى */
+            /* ...... */
+            
+            
+            
+            
+            .about{
+                background-color: #22282a;
+                display: flex;
+                padding: 8%; 
+                align-items: center;  
+            }
+            
+            .about img{
+                width: 20%;
+                position: relative;
+                 right: 55%;
+                 position: absolute;
+                 top: 104%;
+                 left: 0%;
+                 cursor: pointer;
+             
+             
+                
+              
+               
+            }
+            .about h1{
+            position: relative;
+            left: 30%;
+            bottom: 40px;
+            font-size: 22px;
+                
+            }
+            
+            pre{
+                position: relative;
+                right: 40px;
+                top:10px;
+                font-size: 16px;
+                font-family: 'Josefin SanS', sans-serif;
+            
+            }
+            
+            
+            /*  skills page (section) */
+            .skills{
+                background-color: #1e2121;
+                display: flex;
+                
+            }
+            
+            .skills h1{
+                position: relative;
+                right: 20px;
+                display: flex;
+            }
+            
+            .skills-image{
+                width: 24%;
+                display: inline-block;
+                cursor: pointer;
+                
+               
+            }
+            
+            .skills-image img{
+                position: relative;
+                left: 25px;
+                width: 31%;
+                bottom: 10px;
+            }
+            
+            .skills-image img:hover{
+                transform: scale(1.2);
+                transition: 0.4s;
+            }
+         }
+
